@@ -1,0 +1,62 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0);
+    position: fixed;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerField {
+    width: 820px;
+    height: 670px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(239, 98, 98); */
+    padding: 25px;
+  }
+  
+  .closeBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .closeBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .contentField {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(184, 42, 42); */
+  }
+
+  .leftt {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: aquamarine; */
+    flex: 1;
+  }
+
+  .leftt ul li {
+    background-color: rgb(179, 172, 255);
+    padding: 10px 60px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rightt{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    /* background-color: blue; */
+  }

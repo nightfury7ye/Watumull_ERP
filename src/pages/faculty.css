@@ -1,0 +1,85 @@
+* {
+    font-family: "Jost", sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0px;
+  }
+
+ .banner {
+    width: 1500px;
+    /* width: 100%; */
+    /* height: 100px; */
+    background-color: black;
+ }
+
+ .container {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .banner h1 {
+    padding: 45px 0px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    color: white;
+ }
+
+ .buttonsNav {
+    display: flex;
+ }
+
+ .extc {
+    /* width: 50%; */
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+ }
+
+ .extc h2 {
+    color: white;
+ }
+
+ .comps {
+    width: 50%;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px 0px;
+ }
+
+ .staffSection {
+    margin: 80px 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 05fr));
+    grid-gap: 12px;
+ }
+
+ .profCardContainer {
+    display: flex;
+    justify-content: center;
+ }
+
+ .profCard {
+    border-radius: 9%;
+    display: inline-block;
+    padding: 8px 8px 0px 8px;
+    margin: 20px 35px;
+    border: 1px solid black;
+ }
+
+ .profImage {
+    border-radius: 9%;
+ }
+
+ .profNameCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .profName {
+    text-align: center;
+    /* background-color: black; */
+    margin-bottom: 0px;
+    margin: 10px 0px;
+ }

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+  }
+
+  .main_container {
+    height: 600px;
+    margin-top: -70px;
+  }
+
+  .hero_section {
+    background-image: url("../assets/university.jpg");
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    display: block;
+    height: 100%;
+  }
