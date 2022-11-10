@@ -1,6 +1,4 @@
-* {
-    font-family: "Jost", sans-serif;
-  }
+
 
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
@@ -50,7 +48,7 @@
  .staffSection {
     margin: 80px 150px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 05fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 05fr));
     grid-gap: 12px;
  }
 
@@ -69,6 +67,9 @@
 
  .profImage {
     border-radius: 9%;
+    width: 180px;
+   height: 260px;
+   object-fit: cover;
  }
 
  .profNameCard {

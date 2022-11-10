@@ -39,12 +39,13 @@ const Navbar = () => {
                 <a href='#'>About Us</a>
               </li>
               <li className="nav_menu-item">
-                <a href='#'>Contact Us</a>
+                {/* <a href='#'>Contact Us</a> */}
+                <Link to="/contactus">Contact Us</Link>
               </li>
             </ul>
           </div>
           <div className='login_btn'>
-            <button className='portal_btn' onClick={""}>Portal</button>
+            <button className='portal_btn' onClick={() => window.open("http://localhost:3000", "_self")}>Portal</button>
             {/* <ul className="nav_submenu">
               <li className="nav_submenu-item ">
                 <a href="#">Student login</a>

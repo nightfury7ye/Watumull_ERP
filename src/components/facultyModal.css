@@ -10,8 +10,7 @@
   }
   
   .modalContainer {
-    width: 680px;
-    height: 400px;
+    width: 750px;
     border-radius: 12px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -23,7 +22,12 @@
   .modalContainer .title {
     /* display: inline-block; */
     /* text-align: center; */
-    margin-top: 10px;
+    margin-top: 16px;
+  }
+
+  .title p {
+    font-size: 20px;
+    font-weight: 600;
   }
   
   .titleCloseBtn {
@@ -54,14 +58,7 @@
     justify-content: center;
     align-items: center;
   }
-  .rightside {
-    flex: 2;
-    /* background-color: aqua; */
-    display: flex;
-    /* padding: 0px 20px; */
-    margin-left: 30px;
-    font-size: 1.2rem;
-  }
+
   .leftside {
     display: flex;
     flex-direction: column;
@@ -69,6 +66,33 @@
     /* background-color: blueviolet; */
     margin: 0px 5px;
     flex: 1;
+  }
+
+  .rightside {
+    flex: 2;
+    /* background-color: aqua; */
+    /* padding: 0px 20px; */
+    margin-left: 40px;
+    font-size: 1.2rem;
+  }
+
+  .infoFormator {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .infoTitle{
+    flex: 2;
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color: rgb(192, 50, 50); */
+  }
+
+  .info{
+    margin-left: 10px;
+    flex: 2;
+    font-size: 19px;
+    font-weight: 400;
   }
 
   .profImageInModal {

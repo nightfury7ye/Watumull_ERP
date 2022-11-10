@@ -2,11 +2,13 @@ import React, {useState} from 'react';
 import './faculty.css';
 import Uma from '../assets/uma.png';
 import facultyData from '../data/facultyData';
+import ExtcFacultyData from '../data/extcFacultyData';
 import FacultyModal from '../components/FacultyModal';
 
 const Faculty = () => {
     console.log(facultyData);
     const [modalOpen, setModalOpen] = useState(false);
+    const [currentItem, setCurrentItem] = useState();
     const [extcClicked, setExtcClicked] = useState(false);
     const [compsClicked, setCompsClicked] = useState(true);
     const handleClick = (whatClicked) => {
@@ -19,9 +21,13 @@ const Faculty = () => {
             setExtcClicked(!extcClicked);
         }
     };
+    const onCardClick = (item) => {
+        setModalOpen(true);
+        setCurrentItem(item);
+    }
   return (
         <div className='containerr'>
-            {modalOpen && <FacultyModal setOpenModal={setModalOpen} />}
+            {modalOpen && <FacultyModal setOpenModal={setModalOpen} data={currentItem} />}
             <div className='banner'>
                 <h1>OUR FACULTY</h1>
             </div>
@@ -34,16 +40,28 @@ const Faculty = () => {
                 </div>
             </div>
             <div className='staffSection'>
-            {facultyData.map((item) => 
-                <div className='profCardContainer' onClick={() => {setModalOpen(true)}}>
+            {
+            compsClicked ?
+            (facultyData.map((item) =>
+                <div className='profCardContainer' onClick={() => onCardClick(item)}>
                 <div className='profCard'>
-                    <img className='profImage' src={Uma} />
+                    <img className='profImage' src={item.facultyImage} />
                     <div className='profNameCard'>
                         <p className='profName'>{item.facultyName}</p>
                     </div>
                 </div>
                 </div>
-                )}
+            )):(ExtcFacultyData.map((item) =>
+                <div className='profCardContainer' onClick={() => onCardClick(item)}>
+                <div className='profCard'>
+                    <img className='profImage' src={item.facultyImage} />
+                    <div className='profNameCard'>
+                        <p className='profName'>{item.facultyName}</p>
+                    </div>
+                </div>
+                </div>
+            ))
+            }
             </div>
         </div>
   )

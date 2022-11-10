@@ -2,7 +2,7 @@ import React from "react";
 import "./facultyModal.css";
 import Uma from "../assets/uma.png";
 
-function Modal({ setOpenModal }) {
+function Modal({ setOpenModal, data }) {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -17,13 +17,28 @@ function Modal({ setOpenModal }) {
         </div>
         <div className="modalContainerContent">
         <div className="leftside">
-            <img className='profImageInModal' src={Uma} />
+            <img className='profImageInModal' src={data.facultyImage} />
             <div className="title">
-                <h4>Mrs. Uma Ade</h4> 
+                <p>{data.facultyName}</p> 
             </div>
         </div>
         <div className="rightside">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <div className="infoFormator">
+                <p className="infoTitle">Designation:</p>
+                <p className="info">{data.Designation}</p>
+            </div>
+            <div className="infoFormator">
+                <p className="infoTitle">Department:</p>
+                <p className="info">{data.Department}</p>
+            </div>
+            <div className="infoFormator">
+                <p className="infoTitle">Qualifications with Class/Grad:</p>
+                <p className="info">{data.Qualifications}</p>
+            </div>
+            <div className="infoFormator">
+                <p className="infoTitle">Total Experience:</p>
+                <p className="info">{data.Experience} years</p>
+            </div>
         </div>
         </div>
         {/* <div className="footer">
