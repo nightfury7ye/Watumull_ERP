@@ -69,19 +69,18 @@ export default function ContactUs() {
         <div className=" lg:h-[500px] bg-white lg:grid lg:grid-cols-2  justify-center md:flex md:flex-col  items-center">
           <div className=" bg-white  w-[65%] flex flex-col ml-16 mt-8  pr-1 ">
             <div className="mx-6 text-xl ">
-              <h1 className="font-bold text-3xl md:text-4xl SmallCaps TwCenMT ">Corporate Office</h1>
-              <p className='font-semibold text-lg md:text-2xl mt-4 AbhayaLibre'>School of Inspirational Leadership Pvt.Ltd</p>
+              <h1 className="font-bold text-3xl md:text-4xl SmallCaps TwCenMT ">Watumull Institute of Electronic Engineering And Computer Technology</h1>
+              {/* <p className='font-semibold text-lg md:text-2xl mt-4 AbhayaLibre'>Watumull Institute Of Electronic Engineering And Computer Technology</p> */}
             </div>
 
             <div className="mx-6 my-3 TwCenMT text-lg mt-4 " style={{fontWeight: 550}}>
-              <p> Office No. 205A, Regent Plaza, </p>
-              <p> Baner-Pashan Link Rd, </p>
-              <p>Baner, Pune- 411045 </p>
-              <p>Sales Support: +91 91686987711</p>
+              <p> Plot No.157, C.H.M.Campus, </p>
+              <p> Opp.Ulhasnagar Railway Station, </p>
+              <p>Ulhasnagar-421003( West ). </p>
             </div>
 
             <div className="justify-center mx-6  my-6 ">
-              <a href="https://g.page/school-of-inspirational-leadersh?share" target="_blank">  <button className="lg:w-1/2 flex items-center justify-center text-xl font-semibold rounded-md bg-[#f16920] text-white py-1 md:px-2 w-[100%] mb-5 AbhayaLibre">
+              <a href="https://goo.gl/maps/EbnrkHh9gkzV4ZAw8" target="_blank">  <button className="lg:w-1/2 flex items-center justify-center text-xl font-semibold rounded-md bg-[#f16920] text-white py-1 md:px-2 w-[100%] mb-5 AbhayaLibre">
                 View in Maps
               </button></a>
 
@@ -89,7 +88,7 @@ export default function ContactUs() {
 
           </div>
           <iframe className=" w-[100%] h-[450px] mr-2"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15129.922268164526!2d73.78440476977539!3d18.552360800000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf896ec4e9d5%3A0x75b3436d2bdbc03e!2sSCHOOL%20OF%20INSPIRATIONAL%20LEADERSHIP!5e0!3m2!1sen!2sin!4v1636463358344!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4426296487645!2d73.1619779139066!3d19.219531852441836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7946eaaaaaaad%3A0x2eb9d3900e86cb33!2sWatumull%20Institute%20Of%20Electronic%20Engineering%20And%20Computer%20Technology!5e0!3m2!1sen!2sin!4v1668106571162!5m2!1sen!2sin"
             // width="600"
             // height="450"
             loading="lazy"
@@ -164,7 +163,7 @@ export default function ContactUs() {
                   />
                 </div>
 
-                <div className="my-1   md:w-1/3 w-[100%] overflow-hidden">
+                {/* <div className="my-1   md:w-1/3 w-[100%] overflow-hidden">
                   <input
                     type="text"
                     className="p-3 mb-2 text-center border border-gray-500 rounded-lg outline-none focus:border-blue-400"
@@ -176,7 +175,7 @@ export default function ContactUs() {
                   ////value={values.jobtitle}
                   ////onChange={handlechange}
                   />
-                </div>
+                </div> */}
 
                 <div className="my-1 md:w-1/3 w-[100%] overflow-hidden">
                   <input
@@ -206,7 +205,7 @@ export default function ContactUs() {
                   />
                 </div>
 
-                <div className="my-1  md:w-1/3 w-[100%] overflow-hidden">
+                {/* <div className="my-1  md:w-1/3 w-[100%] overflow-hidden">
                   <input
                     type="text"
                     className="p-3 mb-2 text-center border border-gray-500 rounded-lg outline-none focus:border-blue-400 "
@@ -232,7 +231,7 @@ export default function ContactUs() {
                   ////value={values.country}
                   ////onChange={handlechange}
                   />
-                </div>
+                </div> */}
 
                 <div className="md:w-1/3 w-[100%] overflow-hidden">
                   <input
@@ -294,12 +293,6 @@ export default function ContactUs() {
                 </button>
               </div>
             </form>
-            <p className="pt-2 mt-2 text-left text-sm font-normal TwCenMT">
-              SIL needs your information to contact you about our services. We
-              will never sell your information to any third party. You may
-              unsubscribe from these communications at any time. Review our <b>
-                Privacy Policy </b> for more details.
-            </p>
           </div>
 
 
