@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import ContactUs from "./pages/ContactUs";
 import Faculty from "./pages/Faculty";
+import AboutUs from "./pages/AboutUs";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const theme = createTheme({
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={ <Home/> } />
         <Route path="faculty" element={ <Faculty/> } />
         <Route path="contactus" element={ <ContactUs/> } />
+        <Route path="aboutus" element={ <AboutUs/> } />
       </Routes>
     </ThemeProvider>
   );

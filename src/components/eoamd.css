@@ -10,8 +10,8 @@
   }
   
   .containerField {
-    width: 820px;
-    height: 670px;
+    width: 840px;
+    height: 690px;
     border-radius: 12px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -58,5 +58,12 @@
     display: flex;
     flex: 2;
     justify-content: center;
+    overflow-y: scroll;
     /* background-color: blue; */
+    height: 600px;
+  }
+
+  .divider{
+    height: 4px;
+    background-color: grey;
   }

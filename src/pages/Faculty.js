@@ -26,7 +26,7 @@ const Faculty = () => {
         setCurrentItem(item);
     }
   return (
-        <div className='containerr'>
+        <div className='containerrr'>
             {modalOpen && <FacultyModal setOpenModal={setModalOpen} data={currentItem} />}
             <div className='banner'>
                 <h1>OUR FACULTY</h1>

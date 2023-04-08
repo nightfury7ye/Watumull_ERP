@@ -1,0 +1,61 @@
+.page_title {
+    padding: 5rem 0 0;
+}
+
+.container{
+    z-index: 1;
+}
+
+.page_title h1 {
+    font-size: 2.6rem;
+    color: #000;
+    position: relative;
+    padding: 0 20rem 3rem 0rem;
+    margin-bottom: 3.5rem;
+}
+
+.page_title h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 1.5px;
+    width: 10rem;
+    background: #ffd35c;
+    bottom: 0;
+}
+
+.glance_text {
+    padding-right: 4rem;
+}
+
+.info_sec blockquote {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    margin-bottom: 4rem;
+}
+
+.info_sec p {
+    color: #808080;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+}
+
+p {
+    color: #313131;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.watuImg{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.glance_image{
+    justify-content: center;
+    align-items: center;
+}

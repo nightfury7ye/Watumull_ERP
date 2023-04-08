@@ -36,7 +36,8 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav_menu-item">
-                <a href='#'>About Us</a>
+                {/* <a href='#'>About Us</a> */}
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li className="nav_menu-item">
                 {/* <a href='#'>Contact Us</a> */}

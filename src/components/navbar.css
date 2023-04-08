@@ -87,6 +87,7 @@
   .nav_submenu {
     display: none;
     position: absolute;
+    z-index: 99999999;
     top: 63px;
     padding-left: 0px;
     border-radius: 5px;
