@@ -99,21 +99,7 @@ const Home = () => {
                   </h3> */}
                 </div>
               </Slide>
-              <Slide
-                background={{
-                  backgroundImageSrc: closeup,
-                  backgroundPosition: 'center center',
-                }}
-                >
-                <div className='slider_overlay_content'>
-                  {/* <h2>
-                    Watumull Institute ha
-                  </h2>
-                  <h3>
-                    lorem ipsum ipsum lorem ipsumm
-                  </h3> */}
-                </div>
-              </Slide>
+              
               {/* <Slide
                 background={{
                   backgroundImageSrc: elphinstone,
