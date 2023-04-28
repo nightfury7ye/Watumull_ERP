@@ -21,6 +21,8 @@ import ardino from '../assets/articles/ardino.jpg';
 import ensemble_poster from '../assets/articles/ensemble_poster.jpeg';
 import hackathon from '../assets/articles/hackathon.jpeg';
 
+import watu_banner from '../assets/Watu_banner2.jpeg';
+
 import closeup_watu from '../assets/closeup_watu2.jpeg';
 import big_watu from '../assets/big_watu.jpg';
 
@@ -30,7 +32,7 @@ const Home = () => {
         <div className='main_container'>
           <div className='hero_section'>
             <HeroSlider
-              height={"60vh"}
+              height={"65vh"}
               autoplay
               controller={{
                 initialSlide: 1,
@@ -70,7 +72,7 @@ const Home = () => {
               <Slide
                 // shouldRenderMask
                 background={{
-                  backgroundImageSrc: closeup_watu
+                  backgroundImageSrc: watu_banner,
                 }}
               >
                 <div className='slider_overlay_content'>
@@ -84,7 +86,7 @@ const Home = () => {
               </Slide>
               <Slide
                 background={{
-                  backgroundImageSrc: aerial,
+                  backgroundImageSrc: closeup_watu,
                   backgroundPosition: 'center center',
                 }}
                 >
@@ -140,7 +142,6 @@ const Home = () => {
                   </div>
                   <div className='content'>
                     <h2>AICTE Accredited</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
@@ -149,7 +150,6 @@ const Home = () => {
                   </div>
                   <div className='content'>
                     <h2>High Placement Ratio</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum porta turpis.</p>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
@@ -158,7 +158,6 @@ const Home = () => {
                   </div>
                   <div className='content'>
                     <h2>Highly Qualified Faculties</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
@@ -167,7 +166,6 @@ const Home = () => {
                   </div>
                   <div className='content'>
                     <h2>State of art Infrastructure</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
               </div>
@@ -180,7 +178,7 @@ const Home = () => {
                 <img className='princi_pic' src= {require("../assets/faculty/Extc1.png")}></img>
               </div>
               <div className='PI_right'>
-                <h3>Principal</h3>
+                <h3>Principal's Desk</h3>
                 <h1>Mrs. Sunita Sharma</h1>
                 <div>
                 <p>
@@ -226,7 +224,7 @@ const Home = () => {
                       <div class="_lk_bg_cd">
                           <i class="fal fa-registered"></i>
                         <div class="counting" data-count="967">50</div>
-                        <h5>REGISTERED STUDENTS</h5>
+                        <h5>REGISTERED FACULTY</h5>
                       </div>
                   </div>
                 </div>
@@ -248,7 +246,7 @@ const Home = () => {
                           <div class="article_image" ></div>
                           <div class="lower_article_container">
                             <div class="article_content">
-                              <h3>Top 5 coding tips for beginners</h3>
+                              <h3>GIT and GITHUB workshop</h3>
                               <ol>
                                 <li><span class="article_date">march 3rd, 2023</span></li>
                               </ol>
@@ -263,7 +261,7 @@ const Home = () => {
                           <div class="article_image" style={{ backgroundImage:`url(${ensemble_poster})` }}></div>
                           <div class="lower_article_container">
                             <div class="article_content">
-                              <h3>Complete guide for Ardino</h3>
+                              <h3>Ensemble 2023</h3>
                               <ol>
                                 <li> <span class="article_date">march 17th 18th, 2023</span></li>
                               </ol>
@@ -282,7 +280,7 @@ const Home = () => {
                             <div class="article_image" style={{ backgroundImage:`url(${hackathon})` }}></div>
                           <div class="lower_article_container">
                             <div class="article_content">
-                              <h3>Top programming Languages for 2023</h3>
+                              <h3>Hackathon</h3>
                               <ol>
                                 <li><span class="article_date">march 16th, 2023</span></li>
                               </ol>

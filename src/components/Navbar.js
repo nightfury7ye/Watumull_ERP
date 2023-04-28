@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* <Eoamd/> */}
           {eoaOpen && <Eoamd setOpenModal={setEoaOpen} />}
           <div className='logo'>
-            <h2>WATUMULL</h2>
+            <h2>WIEECT</h2>
           </div>
           <div className='main_link'>
             <ul className="main_link_ul">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className='login_btn'>
-            <button className='portal_btn' onClick={() => window.open("http://localhost:3000", "_self")}>Portal</button>
+            <button className='portal_btn' onClick={() => window.open("http://0.0.0.0:3000", "_self")}>Portal</button>
             {/* <ul className="nav_submenu">
               <li className="nav_submenu-item ">
                 <a href="#">Student login</a>

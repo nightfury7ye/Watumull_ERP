@@ -23,6 +23,55 @@ const ExtcFacultyData = [
         Qualifications: "B.E.1st class",
         Experience: 29,
     },
+
+    {
+        facultyImage: require('../assets/faculty/EXTC/Anisa_Shaikh.jpg'),
+        facultyName: 'Mrs. Anisa Shaikh',
+        Designation: "Assistant Professor",
+        Department: "EXTC",
+        Qualifications: "B.Sc. (Tech.)(1st class with Dist) pursuing ME",
+        Experience: 25,
+    },
+    {
+        facultyImage: require('../assets/faculty/EXTC/Hemal_Dalal.jpg'),
+        facultyName: 'Mrs. Hemal Dalal',
+        Designation: "Associate Professor",
+        Department: "EXTC",
+        Qualifications: "M.E.(Electrical) 1st class with Dist.",
+        Experience: 26,
+    },
+    {
+        facultyImage: require('../assets/faculty/EXTC/Reena_Ambekar.jpg'),
+        facultyName: 'Dr. Reena R. Ambekar',
+        Designation: "Assistant Professor",
+        Department: "EXTC",
+        Qualifications: "Ph.D. (Electronics Engg)",
+        Experience: 19,
+    },
+    {
+        facultyImage: require('../assets/faculty/EXTC/Santosh_Kadam.jpg'),
+        facultyName: 'Mr. Santosh Kadam',
+        Designation: "Assistant Professor",
+        Department: "EXTC",
+        Qualifications: "M.E(1st class with Dist.)",
+        Experience: 26,
+    },
+    {
+        facultyImage: require('../assets/faculty/EXTC/Poonam_Shrivastava.jpg'),
+        facultyName: 'Mrs. Poonam Shrivastava',
+        Designation: "Assistant Professor",
+        Department: "EXTC",
+        Qualifications: "M.E. (1stclass) PGDM& PR (1st class)",
+        Experience: 22,
+    },
+    {
+        facultyImage: require('../assets/faculty/EXTC/Vrushali_Purandare.jpg'),
+        facultyName: 'Mrs. Vrushali Purandare',
+        Designation: "Assistant Professor",
+        Department: "EXTC",
+        Qualifications: "M.E. (EXTC)",
+        Experience: 26,
+    },
 ];
 
 export default ExtcFacultyData;
